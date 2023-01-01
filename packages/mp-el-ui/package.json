@@ -1,0 +1,29 @@
+{
+  "name": "mp-el-ui",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "linminghui <linminghui@cloudwalk.com>",
+  "homepage": "https://github.com/Moonphy/mpui#readme",
+  "license": "ISC",
+  "main": "lib/mp-el-ui.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moonphy/mpui.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/mp-el-ui.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Moonphy/mpui/issues"
+  }
+}
