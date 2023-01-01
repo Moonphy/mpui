@@ -1,5 +1,5 @@
 {
-  "name": "mp-el-ui",
+  "name": "@moonphy/mp-el-ui",
   "version": "1.0.6",
   "description": "> TODO: description",
   "author": "linminghui <337465068@qq.com>",
@@ -26,5 +26,5 @@
   "bugs": {
     "url": "https://github.com/Moonphy/mpui/issues"
   },
-  "gitHead": "2d77bb36080cc7b329745b5bcb01a78e52479e02"
+  "gitHead": "dd30c920061c955105be67b21282466f42cd8348"
 }
