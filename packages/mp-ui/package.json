@@ -1,5 +1,5 @@
 {
-  "name": "mp-ui",
+  "name": "@moonphy/mp-ui",
   "version": "0.1.4",
   "private": false,
   "license": "MIT",
@@ -51,5 +51,5 @@
     "typescript": "~4.5.5",
     "vue-template-compiler": "^2.6.14"
   },
-  "gitHead": "a1170be3efe5240b61b655c16226861cea2d638c"
+  "gitHead": "e5ef12f4c28e5893c19c39488dc4ff3ae7dc4f73"
 }
