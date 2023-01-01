@@ -23,9 +23,9 @@
   },
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build:prod": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name mp-ui --dest lib packages/index.ts",
+    "build": "vue-cli-service build --target lib --name mp-ui --dest lib packages/index.ts",
     "test": "node ./__tests__/mp-el-ui.test.js"
   },
   "dependencies": {
@@ -51,5 +51,5 @@
     "typescript": "~4.5.5",
     "vue-template-compiler": "^2.6.14"
   },
-  "gitHead": "e5ef12f4c28e5893c19c39488dc4ff3ae7dc4f73"
+  "gitHead": "2d77bb36080cc7b329745b5bcb01a78e52479e02"
 }

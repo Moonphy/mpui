@@ -2422,6 +2422,10 @@ const install = Vue => {
     Vue.component(component.name, component);
   });
 };
+/* istanbul ignore if */
+if (typeof window !== 'undefined' && window.Vue) {
+  install(window.Vue);
+}
 /* harmony default export */ var packages_0 = (install);
 ;// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 

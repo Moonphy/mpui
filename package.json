@@ -1,6 +1,7 @@
 {
   "name": "mpui",
   "private": false,
+  "license": "MIT",
   "workspaces": [
     "packages/*"
   ],
