@@ -1,6 +1,6 @@
 {
   "name": "mpui",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
