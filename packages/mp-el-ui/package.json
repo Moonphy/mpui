@@ -1,5 +1,5 @@
 {
-  "name": "@moonphy/mp-el-ui",
+  "name": "@moonphy/mpel-ui",
   "version": "1.0.7",
   "description": "> TODO: description",
   "author": "linminghui <337465068@qq.com>",
@@ -16,15 +16,14 @@
   "publishConfig": {
     "registry": "https://registry.npmmirror.com/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Moonphy/mpui.git"
-  },
   "scripts": {
     "test": "node ./__tests__/mp-el-ui.test.js"
   },
   "bugs": {
     "url": "https://github.com/Moonphy/mpui/issues"
   },
-  "gitHead": "e83cb184a10acd2cd27489a39582963d6ac13aa7"
+  "gitHead": "a4668493a82ccb3d8d161c06dcbc69b63b221736",
+  "dependencies": {
+    "vuepress": "^1.9.7"
+  }
 }

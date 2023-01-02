@@ -1,6 +1,6 @@
 {
   "name": "@moonphy/mp-ui",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "private": false,
   "license": "MIT",
   "main": "lib/mp-ui.umd.min.js",
@@ -14,21 +14,17 @@
   "publishConfig": {
     "registry": "https://registry.npmmirror.com/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Moonphy/mpui.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Moonphy/mpui/issues"
-  },
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build:prod": "vue-cli-service build",
+    "build:demo": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "build": "vue-cli-service build --target lib --name mp-ui --dest lib packages/index.ts",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
     "test": "node ./__tests__/mp-el-ui.test.js"
   },
   "dependencies": {
+    "ant-design-vue": "^1.7.8",
     "core-js": "^3.8.3",
     "vue": "^2.6.14",
     "vue-class-component": "^7.2.3",
@@ -49,7 +45,10 @@
     "less": "^4.0.0",
     "less-loader": "^8.0.0",
     "typescript": "~4.5.5",
-    "vue-template-compiler": "^2.6.14"
+    "vue-template-compiler": "^2.6.14",
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-demo-container": "^0.2.0",
+    "vuepress-plugin-typescript": "^0.3.1"
   },
   "gitHead": "e83cb184a10acd2cd27489a39582963d6ac13aa7"
 }

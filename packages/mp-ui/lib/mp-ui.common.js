@@ -1684,7 +1684,7 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-;// CONCATENATED MODULE: ./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[4]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./packages/Msg/index.vue?vue&type=template&id=b9f4f97c&scoped=true&
+;// CONCATENATED MODULE: ./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[4]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./packages/MpMsg/index.vue?vue&type=template&id=1a1fcd08&scoped=true&
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c,
@@ -2254,7 +2254,7 @@ function Watch(path, options) {
 
 
 
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js!./node_modules/ts-loader/index.js??clonedRuleSet-41.use[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./packages/Msg/index.vue?vue&type=script&lang=ts&
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js!./node_modules/ts-loader/index.js??clonedRuleSet-41.use[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./packages/MpMsg/index.vue?vue&type=script&lang=ts&
 
 var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
   var c = arguments.length,
@@ -2264,19 +2264,19 @@ var __decorate = undefined && undefined.__decorate || function (decorators, targ
   return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 
-let Msg = class Msg extends (external_commonjs_vue_commonjs2_vue_root_Vue_default()) {
+let MpMsg = class MpMsg extends (external_commonjs_vue_commonjs2_vue_root_Vue_default()) {
   constructor(...args) {
     super(...args);
     _defineProperty(this, "msg", void 0);
   }
 };
-__decorate([Prop()], Msg.prototype, "msg", void 0);
-Msg = __decorate([vue_class_component_esm({
-  name: 'Msg'
-})], Msg);
-/* harmony default export */ var Msgvue_type_script_lang_ts_ = (Msg);
-;// CONCATENATED MODULE: ./packages/Msg/index.vue?vue&type=script&lang=ts&
- /* harmony default export */ var packages_Msgvue_type_script_lang_ts_ = (Msgvue_type_script_lang_ts_); 
+__decorate([Prop()], MpMsg.prototype, "msg", void 0);
+MpMsg = __decorate([vue_class_component_esm({
+  name: 'MpMsg'
+})], MpMsg);
+/* harmony default export */ var MpMsgvue_type_script_lang_ts_ = (MpMsg);
+;// CONCATENATED MODULE: ./packages/MpMsg/index.vue?vue&type=script&lang=ts&
+ /* harmony default export */ var packages_MpMsgvue_type_script_lang_ts_ = (MpMsgvue_type_script_lang_ts_); 
 ;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
 
@@ -2375,7 +2375,7 @@ function normalizeComponent(
   }
 }
 
-;// CONCATENATED MODULE: ./packages/Msg/index.vue
+;// CONCATENATED MODULE: ./packages/MpMsg/index.vue
 
 
 
@@ -2384,24 +2384,24 @@ function normalizeComponent(
 /* normalize component */
 ;
 var component = normalizeComponent(
-  packages_Msgvue_type_script_lang_ts_,
+  packages_MpMsgvue_type_script_lang_ts_,
   render,
   staticRenderFns,
   false,
   null,
-  "b9f4f97c",
+  "1a1fcd08",
   null
   
 )
 
-/* harmony default export */ var packages_Msg = (component.exports);
+/* harmony default export */ var packages_MpMsg = (component.exports);
 ;// CONCATENATED MODULE: ./packages/index.ts
 
 // import { VueConstructor, ComponentCustomProps } from "vue";
-const components = [packages_Msg];
+const components = [packages_MpMsg];
 const install = Vue => {
   components.map(component => {
-    Vue.component(component.name, component);
+    Vue.component(component.options.name, component);
   });
 };
 /* istanbul ignore if */
